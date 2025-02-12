@@ -1,12 +1,9 @@
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <p>Sample Text</p>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-
-      </footer>
+    <div className="flex justify-center items-center">
+      <h1>Ethan Butterworth</h1>
+      <h2>Apprentice Security Engineer</h2>
+      <img src="/mypic.jpg" alt="A picture of Ethan." className="h-24 rounded-full"></img>
     </div>
   );
 }
